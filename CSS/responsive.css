@@ -1,0 +1,229 @@
+@media(max-width:575px) {
+    .header-top .logo {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header_top_btn {
+        display: block;
+        text-align: center;
+        float: none !important;
+    }
+
+    .banner-search {
+        text-align: center !important;
+    }
+
+    .src-btn-heading h2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+
+    .banner_src_bar .navbar {
+        padding: 0 !important;
+        text-align: center;
+        display: block;
+    }
+
+    .banner_src_bar .navbar .form-control {
+        padding: 30px 15px !important;
+        width: 300px !important;
+        text-align: center;
+    }
+
+    .navbar .form-inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cmm-contents {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-head .logo {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .footer-head-right {
+        text-align: center;
+    }
+
+    .follow-part {
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-src-btn .form-inline {
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .browser-template {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .header-top .logo {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header_top_btn {
+        float: none !important;
+        text-align: center;
+    }
+
+    .banner-search {
+        text-align: center !important;
+    }
+
+    .src-btn-heading h2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .banner_src_bar .navbar {
+        padding: 0 !important;
+        text-align: center;
+        display: block;
+    }
+
+    .banner_src_bar .navbar .form-control {
+        padding: 30px 15px !important;
+        width: 430px !important;
+        text-align: center;
+    }
+
+    .navbar .form-inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cmm-contents {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-head .logo {
+        text-align: center;
+        display: inline-block;
+    }
+
+    .footer-head-right {
+        text-align: center;
+    }
+
+    .follow-part {
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-src-btn .form-inline {
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .browser-template {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .banner-search {
+        text-align: center !important;
+    }
+
+    .src-btn-heading h2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .banner_src_bar .navbar {
+        padding: 0 !important;
+        text-align: center;
+        display: block;
+    }
+
+    .banner_src_bar .navbar .form-control {
+        padding: 30px 15px !important;
+        width: 600px !important;
+        text-align: center;
+    }
+
+    .navbar .form-inline {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .browser-template {
+        margin-top: 20px;
+    }
+
+    .cmm-contents {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-head .logo {
+        text-align: center;
+        display: inline-block;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer-head-right {
+        text-align: center;
+    }
+}

@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.logo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-top {
+    background: #232323;
+    padding: 11px 0;
+}
+
+.logo img {
+    height: 15px;
+    width: 15px;
+    margin-right: 2px !important;
+    float: left;
+    margin-top: 8px;
+}
+
+.logo h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    float: left;
+    margin: 0 !important;
+}
+
+.logo h2 span {
+    color: #81b441;
+    font-weight: normal;
+}
+
+.btn-bg {
+    border-right: 1px solid #000 !important;
+    z-index: 9;
+}
+
+.btn-bg:hover {
+    border-right: 1px solid #000 !important;
+}
+
+.btn-secondary {
+    border-color: transparent #000 transparent transparent !important;
+    background: #333333 !important;
+}
+
+.btn-secondary:last-child {
+    border-right: transparent !important;
+}
+
+.btn-secondary:hover {
+    border-color: transparent !important;
+    background: #000 !important;
+}
+
+.header_top_btn button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*=======================================================
+                    branding part start
+=========================================================*/
+
+.brand {
+    background: #333333;
+    padding: 12px 0;
+}
+
+.branding ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.branding ul {
+    margin: 0 !important;
+}
+
+.branding ul li img {
+    width: 22px;
+    height: 18px;
+}
+
+.branding ul li span {
+    margin-left: -3px;
+    color: #cecece;
+}
+
+.branding ul li span:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+/*=========================================================
+                     banner part start
+===========================================================*/
+.banner {
+    background: url(../images/banner_bg.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 345px;
+}
+
+.banner-heading h2 {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.banner-heading p {
+    max-width: 720px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.banner-search .btn {
+    padding: 18px 10px !important;
+    width: 290px !important;
+    border-color: transparent !important;
+    color: #666666 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+.banner-search .btn-secondary {
+    background: #e3e3e3 !important;
+
+}
+
+.banner_src_bar .navbar .form-control {
+    padding: 30px 15px !important;
+    width: 480px !important;
+    display: inline-block !important;
+    background-clip: unset !important;
+    border-radius: .25rem 0 0 .25rem !important;
+    border-right: 1px solid #99999b;
+}
+
+.bg-light {
+    background: none !important;
+}
+
+.banner_src_bar .form-control {
+    font-size: 18px !important;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner_src_bar ::placeholder {
+    color: #666666;
+    text-align: left !important;
+}
+
+input[type="search"]::placeholder {
+    text-align: left !important;
+}
+
+.banner_src_bar .navbar {
+    padding: 0 !important;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 6.255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .4em solid !important;
+    border-right: .4em solid transparent !important;
+    border-bottom: 0;
+    border-left: .4em solid transparent !important;
+}
+
+.banner_src_bar .btn {
+    padding: 10px 25px !important;
+    margin-left: -8px;
+    border-radius: 0 .25rem .25rem 0;
+    background: #fff !important;
+    border-color: transparent !important;
+    font-size: 27px;
+    color: #99999b;
+}
+
+.btn-outline-success:hover {
+    color: #99999b;
+}
+
+.banner-dropdown .dropdown-menu {
+    min-width: 18rem !important;
+}
+
+.src-btn-heading h2 {
+    font-size: 25px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+/*============================================================
+                        PROJECT PART START
+==============================================================*/
+.project {
+    background: #f5f5f5;
+}
+
+.project-heading h2 {
+    margin-top: 40px;
+    font-size: 36px;
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-heading p {
+    font-size: 21px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.browser-template {
+    background: #fff;
+    padding: 5px 0;
+}
+
+.img_heading {
+    margin-top: 20px;
+}
+
+.img_heading span {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: normal;
+}
+
+.img_heading p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #666;
+    margin: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img_heading .btn-secondary {
+    background: #1abc9c !important;
+    box-shadow: 0 2px 0 #169d82;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 15px !important;
+    margin-bottom: 5px;
+    height: 44px;
+}
+
+.img_heading strong a {
+    color: #444;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+
+.img_heading strong a:hover {
+    color: #19b395;
+}
+
+.img_heading .btn-secondary:hover {
+    background: #19b395 !important;
+}
+
+/*====================================================
+               ANOTHER PROJECT START
+======================================================*/
+
+.feture-content h2 a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    transition: all linear .3s;
+    /* line-height: 30px !important; */
+
+}
+
+.feture-content h2 {
+    line-height: 15px !important;
+    margin-top: 10px;
+}
+
+.feture-content p {
+    font-size: 12px;
+    color: #666;
+}
+
+.feture-content p a {
+    color: #444;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.feture-content a:hover {
+    color: #777;
+}
+
+/*=======================================================
+                   COMMUNITY PART START
+=========================================================*/
+
+.community {
+    background: #7bc4c4;
+}
+
+.community-heading h2 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.community-heading p {
+    color: #fdf3a9;
+    font-size: 20px;
+}
+
+.cmm-contents h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 2px !important;
+}
+
+.cmm-contents h4 {
+    color: #fdf3a9;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.cmm-contents p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+    padding-right: 39px;
+    margin-bottom: 10px;
+}
+
+.cmm-contents p a {
+    color: #fdf3a9;
+    text-decoration: none;
+}
+
+.cmm-contents p a:hover {
+    color: #000;
+}
+
+.cmm-btn {
+    display: inline-block;
+}
+
+.cmm-btn a {
+    padding: 7px 20px;
+    background: #232323;
+    color: #fdf3a9;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.cmm-btn a:hover {
+    background: #fff;
+    color: #000;
+}
+
+/*===========================================================
+                        WORK PART START
+=============================================================*/
+
+.work {
+    background: #444444;
+}
+
+.work .work-heading h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.work .work-heading h4 {
+    color: #d8d8d8;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.work .work-heading .work-btn a {
+    color: #fff;
+    background: #7aa93c;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    padding: 25px 70px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/*=================================================================
+                          FOOTER PART START
+===================================================================*/
+.footer {
+    background: #333333;
+}
+
+.footer-head-right ul li {
+    display: inline-block;
+    color: #999;
+    margin-left: 15px;
+}
+
+.footer-head-right ul li span {
+    color: #fff;
+}
+
+.footer-head-right ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.footer-border {
+    border-bottom: 1px solid #444;
+    padding: 30px 0 20px;
+}
+
+.flw-heading h2 {
+    font-size: 20px;
+    color: #999;
+    margin-bottom: 10px !important;
+    font-weight: bold;
+}
+
+.social-icon ul li {
+    display: inline-block;
+}
+
+.social-icon ul li a {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.social-icon ul li:nth-child(1) a {
+    background: #3b5a9b;
+
+}
+
+.social-icon ul li:nth-child(2) a {
+    background: #2b97f0;
+}
+
+.social-icon ul li:nth-child(3) a {
+    background: #dc4e41;
+}
+
+.cmn ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nws p {
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-src-btn .form-control {
+    width: 100% !important;
+    background: #232323;
+    color: #e7e7e7e7;
+    border: none;
+    margin: 0 !important;
+}
+
+.footer-src-btn .btn {
+    background: #82b440;
+    border: none;
+    box-shadow: 0 2px 0 #6f9a37;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 8px 0;
+    padding: 2px 10px;
+    width: 100%;
+}
+
+.footer-src-btn .form-inline a {
+    font-size: 12px;
+    color: #999;
+}
+
+.footer-img-details p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px !important;
+}
+
+.footer-img-details a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.copy-right p {
+    font-size: 15px;
+    color: #999;
+}
